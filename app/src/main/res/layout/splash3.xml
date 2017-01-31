@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splashlayout3">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/desert"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/splash3" />
+
+    <Button
+        android:text="立即体验"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/button_splash"
+        android:background="@color/colorYellow"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"/>
+</FrameLayout>
